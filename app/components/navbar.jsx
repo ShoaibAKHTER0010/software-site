@@ -17,7 +17,7 @@ const Navbar = () => {
     <main className='w-full  '>
     <div className='w-full top-0 left-0  bg-black flex justify-center '>
       <div className='md:flex items-center justify-between  py-4 md:max-w-7xl w-full mx-auto  '>
-      <div className=" inline-flex gap-2"> <img src="./images/logo-top.png" alt="logo" /><h2 className='text-white md:text-2xl text-xl font-bold font-["Poppins"] leading-[16px] md:leading-[25px]'>Logoipusm</h2></div>
+      <div className=" inline-flex gap-2  "> <img src="./images/logo-top.png" alt="logo" /><h2 className='text-white md:text-2xl text-xl font-bold font-["Poppins"] leading-[16px] md:leading-[25px] cursor-pointer hover:text-gray-400'>Logoipusm</h2></div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
       <ion-icon name={open ? 'close':'menu'}></ion-icon>

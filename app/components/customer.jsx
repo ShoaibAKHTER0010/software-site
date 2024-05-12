@@ -45,6 +45,13 @@ const Customer = () => {
                  {/* empty */}
                 </div>
               </div>
+
+                  {/* part-3 */}
+                  <div className='w-full flex  justify-center pt-6'>
+              <div className='w-[69px] h-[5px] bg-gradient-to-bl from-rose-400 to-purple-900'>
+                 {/* empty */}
+                </div>
+              </div>
                 </div>
             </div>
         </main>

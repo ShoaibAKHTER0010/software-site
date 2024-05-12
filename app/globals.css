@@ -5,6 +5,7 @@
 :root {
   background: #151515;
   color:white;
+  user-select: none;
 }
 
 .embla {
