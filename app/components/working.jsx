@@ -15,7 +15,7 @@ const Working = () => {
 <span className="text-zinc-300 text-[36.53px] font-bold font-['Poppins'] leading-[43.26px]">Who are Working With us</span></h2>
           </div>
           {/* second div */}
-          <div className=" py-8">
+          <div className=" py-8 transition-all duration-500 ease-in">
           <Marquee>
             {/* user one */}
             <div className="rounded-xl shadow-2xl mx-12 hover:border-2 hover:border-rose-400 ">

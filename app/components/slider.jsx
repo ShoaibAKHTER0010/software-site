@@ -6,7 +6,7 @@ const Slider = () => {
     <section className="w-full bg-[#1d1c1c]">
     <main className="w-full py-24">
         {/* main div */}
-        <div className="flex">
+        <div className="flex transition-all duration-500 ease-in">
         <Marquee>
             {/* card one */}
             <div className="bg-black rounded-lg p-6 px-10 shadow-lg mx-12 hover:border-2 hover:border-rose-400 transition-all duration-500 ease-in">

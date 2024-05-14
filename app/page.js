@@ -8,6 +8,11 @@ import Customer from "./components/customer";
 import Cases from "./components/cases";
 import Building from "./components/building";
 import Design from "./components/design";
+import Stack from "./components/stack";
+import Alcaline from "./components/alcaline";
+import Feature from "./components/feature";
+import Hire from "./components/hire";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -22,6 +27,11 @@ export default function Home() {
    <Cases/>
    <Building/>
    <Design/>
+   <Stack/>
+   <Alcaline/>
+   <Feature/>
+   <Hire/>
+   <Footer/>
    
    </div>
   );
