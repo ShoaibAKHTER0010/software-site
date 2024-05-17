@@ -6,9 +6,9 @@ const Main = () => {
     <section className='w-full bg-[#151515]'>
         <main className='mx-auto max-w-7xl pt-16 '>
             {/* main-div */}
-            <div className='w-full flex pl-4 md:pl-0'>
+            <div className='w-full flex flex-row md:flex-row  sm:flex-col  pl-4 md:pl-6 '>
                 {/* first--div */}
-                <div className='w-1/2 text-white py-28'>
+                <div className='w-full md:w-1/2 text-white py-0 md:py-28 flex flex-col items-center md:items-start'>
                   {/* paragraph */}
                  <div className=" text-zinc-300 text-[45px] font-bold font-['Poppins'] leading-[64px] -mr-24 ">
                  Great <span className="text-fuchsia-800 "> software </span>is <br />
@@ -22,7 +22,7 @@ const Main = () => {
 
                 </div>
                 {/* second-div */}
-                <div className='w-1/2 '>
+                <div className='w-full md:w-1/2 '>
                   <img src="./images/main-img.png" alt="img-1" />
 
                 </div>

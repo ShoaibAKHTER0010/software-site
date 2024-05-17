@@ -33,7 +33,7 @@ const Footer = () => {
                     <p className="text-slate-100 text-lg font-normal font-['Inter'] leading-[30px]">+908 89097 890</p>
                 </div>
                 {/* fourth div */}
-                <div className='pt-72 flex gap-4'>
+                <div className='pt-72 flex gap-4 cursor-pointer'>
                 <ion-icon name="logo-facebook" size="large"></ion-icon>
                 <ion-icon name="logo-instagram" size="large"></ion-icon>
                 <ion-icon name="logo-github" size="large"></ion-icon>
