@@ -34,7 +34,7 @@ const Navbar = () => {
                         ))}
 
                         {/* button */}
-                        <div className='pb-4 px-2'>
+                        <div className='pb-4 md:pb-0 px-2'>
                             <button className='text-white font-[Poppins] py-2 px-4 bg-gradient-to-bl from-rose-400 to-purple-900 rounded-[10.04px] duration-500'>
                                 Contact Us
                             </button>

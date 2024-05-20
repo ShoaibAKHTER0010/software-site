@@ -19,9 +19,9 @@ const Customer = () => {
 
                 </div>
                 {/* second div */}
-                <div className=' py-16 '>
+                <div className=' py-16 pl-20 md:pl-0 '>
                 {/* part-1 */}
-                <div className='flex gap-6 flex-wrap'>
+                <div className='flex gap-16 md:gap-6 flex-wrap'>
                   {/* person-1  */}
                   <div>
                     <img src="./images/clients/p-1.png" alt="p-1" />

@@ -22,7 +22,7 @@ const Main = () => {
 
                 </div>
                 {/* second-div */}
-                <div className='w-full md:w-1/2 '>
+                <div className='w-full md:w-1/2 flex justify-center items-center '>
                   <img src="./images/main-img.png" alt="img-1" />
 
                 </div>

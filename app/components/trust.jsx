@@ -5,9 +5,9 @@ const Trust = () => {
     <section className='w-full'>
         <main className='mx-auto max-w-7xl py-24'>
             {/* main-div */}
-            <div className="w-full flex gap-20">
+            <div className="  gap-20 w-full flex flex-row md:flex-row  sm:flex-col">
                 {/* first-div */}
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2 py-0 md:py-28 flex flex-col items-center md:items-start">
                  {/* child */}
                  <div className='h-1 w-20 bg-gradient-to-bl from-rose-400 to-purple-900'></div>
                  <h2 className="text-zinc-300 text-[37.60px] font-normal font-['Poppins'] leading-[59.09px] py-8 ">Leading companies trust <br /> us <span className='text-zinc-300 text-[37.60px] font-bold'>to develop software</span></h2>
@@ -16,7 +16,7 @@ const Trust = () => {
 
                 </div>
                 {/* second-div */}
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2 py-0 md:py-28 flex flex-col items-center md:items-start">
                 <img src="./images/trust.png" alt="img" />
 
                 </div>
