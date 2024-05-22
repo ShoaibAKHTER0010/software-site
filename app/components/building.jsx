@@ -14,9 +14,9 @@ const Building = () => {
                 <span className="text-zinc-300 text-[35px] font-bold font-['Poppins'] leading-[55px]">Great Software</span></h2>
             </div>
             {/* build-1 */}
-            <div className='w-full flex gap-24'>
+            <div className='w-full flex flex-col-reverse md:flex-row gap-24 '>
                 {/* part-1 */}
-                <div className='w-1/2'>
+                <div className='w-full md:w-1/2 pl-4 md:pl-0 '>
                   <h2 className=" text-zinc-300 text-[32.56px] font-semibold font-['Poppins'] leading-[44.30px] py-6">Build the right team to scale</h2>
                   <p className="text-zinc-300 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px]">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
                   <p className="text-slate-100 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px] py-6">Our <span className="text-rose-400 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px]">delivery model</span> helps you cut costs and deliver within budget.</p>
@@ -39,7 +39,7 @@ const Building = () => {
                 </div>
 
                 {/* part-2 */}
-                <div className='w-1/2'>
+                <div className=' w-full md:w-1/2'>
                 <img src="./images/build-1.png" alt="img" />
                 </div>
 
@@ -47,15 +47,15 @@ const Building = () => {
 
 
              {/* build-2 */}
-             <div className='w-full flex gap-24'> 
+             <div className='w-full flex flex-col md:flex-row gap-24'> 
              
               {/* part-1 */}
-                <div className='w-1/2'>
+                <div className=' w-full md:w-1/2'>
                 <img src="./images/build-2.png" alt="img" />
                 </div>
                  
                   {/* part-2 */}
-                <div className='w-1/2'>
+                <div className=' w-full md:w-1/2 pl-4 md:pl-0'>
                   <h2 className=" text-zinc-300 text-[32.56px] font-semibold font-['Poppins'] leading-[44.30px] py-6">Build the right team to scale</h2>
                   <p className="text-zinc-300 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px]">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
                   <p className="text-slate-100 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px] py-6">Our <span className="text-rose-400 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px]">delivery model</span> helps you cut costs and deliver within budget.</p>
@@ -79,9 +79,10 @@ const Building = () => {
 
             </div>
 
-            <div className='w-full flex gap-24'>
+              {/* build-3 */}
+            <div className='w-full flex flex-col-reverse md:flex-row gap-24'>
                 {/* part-1 */}
-                <div className='w-1/2'>
+                <div className=' w-full md:w-1/2 pl-4 md:pl-0'>
                   <h2 className=" text-zinc-300 text-[32.56px] font-semibold font-['Poppins'] leading-[44.30px] py-6">Build the right team to scale</h2>
                   <p className="text-zinc-300 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px]">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
                   <p className="text-slate-100 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px] py-6">Our <span className="text-rose-400 text-[20.93px] font-normal font-['Poppins'] leading-[34.89px]">delivery model</span> helps you cut costs and deliver within budget.</p>
@@ -104,7 +105,7 @@ const Building = () => {
                 </div>
 
                 {/* part-2 */}
-                <div className='w-1/2'>
+                <div className=' w-full md:w-1/2'>
                 <img src="./images/build-3.png" alt="img" />
                 </div>
 

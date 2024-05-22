@@ -41,8 +41,8 @@ const Customer = () => {
                 </div>
                 {/* part-2 */}
               <div className='w-full flex  justify-center pt-16'>
-              <div className='w-[72px] h-[72px] bg-gradient-to-bl from-rose-400 to-purple-900 rounded-full'>
                  {/* empty */}
+              <div className='w-[72px] h-[72px] bg-gradient-to-bl from-rose-400 to-purple-900 rounded-full'>  
                 </div>
               </div>
 

@@ -14,10 +14,10 @@ const Design = () => {
               </h2>
             </div>
             {/* main div */}
-            <div className='w-full flex gap-10'>
+            <div className='w-full flex flex-col md:flex-row gap-10'>
 
             {/* first-div */}
-            <div className='w-1/2 flex flex-col gap-8'>
+            <div className='w-full md:w-1/2 flex flex-col gap-8'>
 
              {/* card-one */}
              <div className='w-full flex bg-black p-10 gap-6'>
@@ -61,7 +61,7 @@ const Design = () => {
             </div>
 
             {/* second-div */}
-            <div className='w-1/2 flex flex-col gap-8'>
+            <div className='w-full md:w-1/2 flex flex-col gap-8'>
 
              {/* card-1 */}
             <div className='w-full flex bg-black p-10 gap-6'>

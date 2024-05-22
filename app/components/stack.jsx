@@ -14,7 +14,7 @@ const Stack = () => {
                     Tech Stack</h2>
                 </div>
                 {/* links */}
-                <div className="text-white text-lg font-normal font-['Poppins'] leading-[30px] flex gap-12 justify-center items-center py-10 ">
+                <div className="text-white text-md md:text-lg font-normal font-['Poppins'] leading-[20px] md:leading-[30px] flex gap-6 md:gap-12 justify-center items-center py-10 ">
                     <a href="#" className=' hover:text-rose-400'>Backend</a>
                     <a href="#" className=' hover:text-rose-400'>Frontend</a>
                     <a href="#" className=' hover:text-rose-400'>Databases</a>
@@ -25,9 +25,9 @@ const Stack = () => {
                 </div>
 
                 {/* develop logos */}
-                <div className='flex flex-col gap-10 py-6 cursor-pointer'>
+                <div className='flex flex-col md:gap-10 py-6  flex-wrap'>
                     {/* child-1 */}
-                    <div className='flex justify-center items-center gap-8'>
+                    <div className='flex justify-center items-center gap-4 md:gap-8 cursor-pointer'>
                         <div><img src="./images/develop/NodeJS.png" alt="node-js" /></div>
                         <div><img src="./images/develop/php.png" alt="node-js" /></div>
                         <div><img src="./images/develop/sql.png" alt="node-js" /></div>
@@ -36,7 +36,7 @@ const Stack = () => {
 
                     </div>
                     {/* child-2 */}
-                    <div className='flex justify-center items-center gap-8 cursor-pointer'>
+                    <div className='flex justify-center items-center gap-3 md:gap-6 cursor-pointer'>
                     <div><img src="./images/develop/python.png" alt="node-js" /></div>
                     <div><img src="./images/develop/rail.png" alt="node-js" /></div>
                     <div><img src="./images/develop/go.png" alt="node-js" /></div>
