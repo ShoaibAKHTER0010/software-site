@@ -44,7 +44,7 @@ const Footer = () => {
 
                </div>
             </div>
-            <p className="pt-10 flex justify-center items-center">© 2023 Copyright by Agency Solutions. <br /> All rights reserved.</p>
+            <p className="pt-10 flex justify-center items-center">© 2024 Copyright by Developer Shoaib Akhter. <br /> All rights reserved.</p>
         </main>
     </section>
   )
