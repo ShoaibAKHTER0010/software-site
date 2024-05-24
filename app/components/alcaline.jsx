@@ -2,7 +2,7 @@ import React from 'react'
 
 const Alcaline = () => {
   return (
-    <section className='w-full'>
+    <section id='works' className='w-full'>
         <main className='mx-auto max-w-7xl'>
             {/* main div */}
             <div className='w-full '>

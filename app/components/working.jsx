@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Working = () => {
   return (
-    <section className='w-full'>
+    <section id="services" className='w-full'>
       <main className=' py-16 mx-auto max-w-7xl '>
         {/* main div */}
         <div className="w-full ">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hire = () => {
   return (
-    <section className='w-full'>
+    <section id='hire' className='w-full'>
         <main className='mx-auto max-w-7xl py-16'>
             {/* main-div */}
             <div className="w-full flex flex-col md:flex-row justify-center items-center gap-0 md:gap-52 bg-zinc-800 rounded-[20.81px] p-16">

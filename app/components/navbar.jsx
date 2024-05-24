@@ -3,12 +3,12 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
     const Links = [
-        { name: "About", link: "/" },
-        { name: "Services", link: "/" },
-        { name: "Cases", link: "/" },
-        { name: "Blog", link: "/" },
-        { name: "Works", link: "/" },
-        { name: "Hire", link: "/" },
+        { name: "About", link: "#about" },
+        { name: "Services", link: "#services" },
+        { name: "Cases", link: "#cases" },
+        { name: "Blog", link: "#blog" },
+        { name: "Works", link: "#works" },
+        { name: "Hire", link: "#hire" },
     ];
 
     const [open, setOpen] = useState(false);

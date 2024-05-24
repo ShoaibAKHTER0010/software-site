@@ -2,8 +2,8 @@ import React from 'react'
 
 const Trust = () => {
   return (
-    <section className='w-full'>
-        <main className='mx-auto max-w-7xl py-24'>
+    <section id='about' className='w-full scroll-smooths'>
+        <main className='mx-auto max-w-7xl pt-24'>
             {/* main-div */}
             <div className="  gap-20 w-full flex flex-row md:flex-row  sm:flex-col">
                 {/* first-div */}

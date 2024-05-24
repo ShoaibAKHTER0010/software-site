@@ -2,7 +2,7 @@ import React from 'react'
 
 const Building = () => {
   return (
-    <section className='w-full'>
+    <section id='blog' className='w-full'>
      <main className='mx-auto max-w-7xl py-16'>
         {/* main div */}
         <div className='w-full flex flex-col gap-24'>

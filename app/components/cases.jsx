@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cases = () => {
   return (
-    <section className='w-full'>
+    <section id='cases' className='w-full'>
         <main className='mx-auto max-w-7xl'>
             {/* main div */}
             <div className='w-full flex flex-col gap-12 '>

@@ -16,7 +16,7 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-   <div>
+   <div className="scroll-smooth">
    <Navbar />
    <Main />
    <Slider/>
