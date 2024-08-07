@@ -35,9 +35,6 @@ const Customer = () => {
 
                    {/* person-4  */}
                    <div><img src="./images/clients/p-4.png" alt="p-4" /></div>
-
-                    {/* person-5 */}
-                  <div><img src="./images/clients/p-5.png" alt="p-5" /></div>
                 </div>
                 {/* part-2 */}
               <div className='w-full flex  justify-center pt-16'>
