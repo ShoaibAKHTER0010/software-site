@@ -4,7 +4,7 @@ import React from 'react'
 const Main = () => {
   return (
     <section className='w-full bg-[#151515]'>
-        <main className='mx-auto max-w-7xl pt-16 '>
+        <main className='mx-auto max-w-7xl  '>
             {/* main-div */}
             <div className='w-full flex flex-col md:flex-row pl-4 md:pl-6 '>
                 {/* first--div */}

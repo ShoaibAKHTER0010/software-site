@@ -19,9 +19,9 @@ const Customer = () => {
 
                 </div>
                 {/* second div */}
-                <div className=' py-16 pl-20 md:pl-0 '>
+                <div className=' py-16 px-6 justify-center items-center md:pl-0 '>
                 {/* part-1 */}
-                <div className='flex gap-16 md:gap-6 flex-wrap'>
+                <div className='pl-14 md:pl-0 flex gap-6 flex-wrap'>
                   {/* person-1  */}
                   <div>
                     <img src="./images/clients/p-1.png" alt="p-1" />
@@ -37,18 +37,17 @@ const Customer = () => {
                    <div><img src="./images/clients/p-4.png" alt="p-4" /></div>
                 </div>
                 {/* part-2 */}
-              <div className='w-full flex  justify-center pt-16'>
+              <div className='w-full flex flex-col  justify-center items-center gap-2 pt-16'>
                  {/* empty */}
               <div className='w-[72px] h-[72px] bg-gradient-to-bl from-rose-400 to-purple-900 rounded-full'>  
                 </div>
-              </div>
 
-                  {/* part-3 */}
-                  <div className='w-full flex  justify-center pt-6'>
+                
               <div className='w-[69px] h-[5px] bg-gradient-to-bl from-rose-400 to-purple-900'>
                  {/* empty */}
                 </div>
-              </div>
+             
+                  </div>
                 </div>
             </div>
         </main>
