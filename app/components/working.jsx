@@ -8,11 +8,11 @@ const Working = () => {
         {/* main div */}
         <div className="w-full ">
           {/* first div */}
-          <div className="py-10 w-full md:w-1/2  md:py-28 flex flex-col sm:items-center md:items-start ">
+          <div className="py-10 w-full md:w-1/2  md:py-28 flex flex-col sm:items-center md:items-start px-4">
             {/* child */}
             <div className="h-1 w-36 bg-gradient-to-bl from-rose-400 to-purple-900 "></div>
-            <h2 className="text-zinc-300 py-8 text-[34.53px] font-normal font-['Poppins'] leading-[43.26px]">Meet the People <br />
-<span className="text-zinc-300 text-[36.53px] font-bold font-['Poppins'] leading-[43.26px]">Who are Working With us</span></h2>
+            <h2 className="text-zinc-300 py-8 text-[30px] md:text-[34.53px] font-normal font-['Poppins'] md:leading-[43.26px]">Meet the People <br />
+<span className="text-zinc-300 text-[32px] md:text-[36.53px] font-bold font-['Poppins'] leading-[43.26px]">Who are Working With us</span></h2>
           </div>
           {/* second div */}
           <div className=" py-8 transition-all duration-500 ease-in-out">

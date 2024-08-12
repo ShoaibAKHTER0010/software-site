@@ -5,12 +5,12 @@ const Alcaline = () => {
     <section id='works' className='w-full'>
         <main className='mx-auto max-w-7xl'>
             {/* main div */}
-            <div className='w-full '>
+            <div className='w-full px-4'>
                  {/* heading-sec */}
                  <div className='py-12 w-full flex flex-col justify-center items-center'>
                     {/* empty */}
                     <div className="w-[169px] h-[5px] bg-gradient-to-bl from-rose-400 to-purple-900"></div>
-                    <h2 className=" py-6 text-center text-zinc-300 text-[35px] font-bold font-['Poppins'] leading-[55px]"><span className="text-zinc-300 text-4xl font-normal ">How development </span> <br />
+                    <h2 className=" py-6 text-center text-zinc-300 text-[30px] md:text-[35px] font-bold font-['Poppins'] leading-[45px] md:leading-[55px]"><span className="text-zinc-300 text-4xl font-normal ">How development </span> <br />
                     through Alcaline works</h2>
                 </div>
 

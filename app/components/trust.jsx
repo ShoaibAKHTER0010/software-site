@@ -5,7 +5,7 @@ const Trust = () => {
     <section id='about' className='w-full scroll-smooths'>
         <main className='mx-auto max-w-7xl pt-24'>
             {/* main-div */}
-            <div className="  gap-20 w-full flex flex-row md:flex-row  sm:flex-col">
+            <div className="  gap-8 md:gap-20 w-full flex flex-col md:flex-row ">
                 {/* first-div */}
                 <div className="w-full md:w-1/2 py-0 md:py-28 flex flex-col items-center md:items-start">
                  {/* child */}

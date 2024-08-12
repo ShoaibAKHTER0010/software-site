@@ -10,8 +10,8 @@ const Building = () => {
             <div className='text-center flex  justify-center  w-full pt-16'>
                 {/* empty */}
                 <div className="w-[69px] h-[5px] bg-gradient-to-bl from-rose-400 to-purple-900 mt-4"></div>
-                <h2 className="text-zinc-300 text-[35px] font-normal font-['Poppins'] leading-[55px]">Way of building <br />
-                <span className="text-zinc-300 text-[35px] font-bold font-['Poppins'] leading-[55px]">Great Software</span></h2>
+                <h2 className="text-zinc-300 text-[35px] font-normal font-['Poppins'] leading-[45px] md:leading-[55px]">Way of building <br />
+                <span className="text-zinc-300 text-[35px] font-bold font-['Poppins'] leading-[45px] md:leading-[55px]">Great Software</span></h2>
             </div>
             {/* build-1 */}
             <div className='w-full flex flex-col-reverse md:flex-row gap-24 '>

@@ -21,20 +21,28 @@ const Customer = () => {
                 {/* second div */}
                 <div className=' py-16 px-6 justify-center items-center md:pl-0 '>
                 {/* part-1 */}
-                <div className='pl-14 md:pl-0 flex gap-6 flex-wrap'>
-                  {/* person-1  */}
+                <div className=' flex flex-col md:flex-row gap-6 '>
+                  {/* first-child */}
+                  <div className='flex gap-4 md:gap-8'>
+                     {/* person-1  */}
                   <div>
                     <img src="./images/clients/p-1.png" alt="p-1" />
                   </div>
 
                    {/* person-2  */}
                    <div><img src="./images/clients/p-2.png" alt="p-2" /></div>
+                  </div>
 
-                    {/* person-3 */}
+                  {/* second-child */}
+                  <div className='flex gap-4 md:gap-8'>
+                     {/* person-3 */}
                   <div><img src="./images/clients/p-1.png" alt="p-1" /></div>
 
-                   {/* person-4  */}
-                   <div><img src="./images/clients/p-4.png" alt="p-4" /></div>
+{/* person-4  */}
+<div><img src="./images/clients/p-4.png" alt="p-4" /></div>
+                  </div>
+
+                  
                 </div>
                 {/* part-2 */}
               <div className='w-full flex flex-col  justify-center items-center gap-2 pt-16'>

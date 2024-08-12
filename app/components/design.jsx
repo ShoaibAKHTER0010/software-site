@@ -8,7 +8,7 @@ const Design = () => {
             <div className='w-full py-16 flex flex-col justify-center items-center'>
               {/* child-empty */}
               <div className="  w-[169px] h-[5px] bg-gradient-to-bl from-rose-400 to-purple-900 "></div>
-              <h2 className="py-8 text-center text-white text-[35px] font-bold font-['Poppins'] leading-[55px]">
+              <h2 className="py-8 text-center text-white text-[35px] font-bold font-['Poppins'] leading-[45px] md:leading-[55px]">
               Our design and <br />
                development approach
               </h2>

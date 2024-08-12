@@ -10,17 +10,23 @@ const Stack = () => {
                 <div className=' w-full flex flex-col justify-center items-center'>
                     {/* empty */}
                     <div className="w-[169px] h-[5px] bg-gradient-to-bl from-rose-400 to-purple-900"></div>
-                    <h2 className=" py-6 text-center text-zinc-300 text-[35px] font-bold font-['Poppins'] leading-[55px]">Our <br />
+                    <h2 className=" py-6 text-center text-zinc-300 text-[35px] font-bold font-['Poppins'] leading-[45px] md:leading-[55px]">Our <br />
                     Tech Stack</h2>
                 </div>
                 {/* links */}
-                <div className="text-white text-md md:text-lg font-normal font-['Poppins'] leading-[20px] md:leading-[30px] flex gap-6 md:gap-12 justify-center items-center py-10 ">
-                    <a href="#" className=' hover:text-rose-400'>Backend</a>
+                <div className="text-white text-md md:text-lg font-normal font-['Poppins'] leading-[20px] md:leading-[30px] flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-center py-10 ">
+                  {/* first-div */}
+                   <div className='flex gap-4 '>
+                   <a href="#" className=' hover:text-rose-400'>Backend</a>
                     <a href="#" className=' hover:text-rose-400'>Frontend</a>
                     <a href="#" className=' hover:text-rose-400'>Databases</a>
-                    <a href="#" className=' hover:text-rose-400'>CMS</a>
+                   </div>
+                   {/* second-div */}
+                   <div className='flex gap-4 '>
+                   <a href="#" className=' hover:text-rose-400'>CMS</a>
                     <a href="#" className=' hover:text-rose-400'>CloudTesting</a>
                     <a href="#" className=' hover:text-rose-400'>DevOps</a>
+                   </div>
 
                 </div>
 

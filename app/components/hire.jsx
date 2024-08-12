@@ -5,17 +5,17 @@ const Hire = () => {
     <section id='hire' className='w-full'>
         <main className='mx-auto max-w-7xl py-16'>
             {/* main-div */}
-            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-0 md:gap-52 bg-zinc-800 rounded-[20.81px] p-16">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-0 md:gap-52 bg-zinc-800 rounded-[20.81px] p-4 md:p-16">
                 {/* first-div */}
                 <div className='w-[100%] md:w-[70%]'>
-                    <h2 className="text-zinc-300 hover:text-white text-4xl font-bold font-['Poppins'] leading-[57.24px]">Hire the best developers and <br /> designers around!</h2>
+                    <h2 className="text-zinc-300 hover:text-white text-center text-2xl md:text-4xl font-bold font-['Poppins'] leading-[40px] md:leading-[57.24px]">Hire the best developers and <br /> designers around!</h2>
 
                 </div>
 
                 {/* second div */}
-                <div className='w-[100%] md:w-[30%]  '>
-                <div className='px-20 py-6 '><img src="./images/hire-1.png" alt="pic" /></div>
-                        <button className="text-neutral-50 hover:text-neutral-400 text-lg font-bold font-['Poppins'] px-[25px] py-3.5 bg-pink-900 rounded-[5px] border border-white justify-center items-center gap-2.5 inline-flex ml-6">Hire Top Developers</button>
+                <div className='w-[100%] md:w-[30%]  py-8 flex justify-center md:flex-col  '>
+                <div className='px-20 py-6 hidden md:flex '><img src="./images/hire-1.png" alt="pic" /></div>
+                        <button className="text-neutral-50 hover:text-neutral-400 text-lg font-bold font-['Poppins'] px-[20px] md:px-[25px] py-3.5 bg-pink-900 rounded-[5px] border border-white justify-center items-center gap-2.5 inline-flex ml-6">Hire Top Developers</button>
 
                         <div className='hidden md:flex px-20 py-6 rotate-180'><img src="./images/hire-1.png" alt="pic" /></div>
                     </div>
