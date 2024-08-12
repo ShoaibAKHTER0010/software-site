@@ -3,7 +3,7 @@ import React from 'react'
 const Building = () => {
   return (
     <section id='blog' className='w-full'>
-     <main className='mx-auto max-w-7xl py-16'>
+     <main className='mx-auto max-w-7xl py-16 px-6 '>
         {/* main div */}
         <div className='w-full flex flex-col gap-24'>
             {/* heading */}
@@ -39,8 +39,8 @@ const Building = () => {
                 </div>
 
                 {/* part-2 */}
-                <div className=' w-full md:w-1/2'>
-                <img src="./images/build-1.png" alt="img" />
+                <div className='flex justify-center w-full md:w-1/2'>
+                <img src="./images/build-1.png" alt="img" className=' w-full h-96 md:h-full object-cover'/>
                 </div>
 
             </div>
@@ -50,8 +50,9 @@ const Building = () => {
              <div className='w-full flex flex-col md:flex-row gap-24'> 
              
               {/* part-1 */}
-                <div className=' w-full md:w-1/2'>
-                <img src="./images/build-2.png" alt="img" />
+                <div className=' flex justify-center w-full md:w-1/2'>
+                <img src="./images/build-2.png" alt="img" className=' w-full h-96 md:h-full object-cover' />
+                
                 </div>
                  
                   {/* part-2 */}
@@ -105,8 +106,8 @@ const Building = () => {
                 </div>
 
                 {/* part-2 */}
-                <div className=' w-full md:w-1/2'>
-                <img src="./images/build-3.png" alt="img" />
+                <div className='flex justify-center w-full md:w-1/2'>
+                <img src="./images/build-3.png" alt="img" className=' w-full h-96 md:h-full object-cover'/>
                 </div>
 
             </div>

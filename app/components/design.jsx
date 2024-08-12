@@ -3,7 +3,7 @@ import React from 'react'
 const Design = () => {
   return (
     <section className='w-full'>
-        <main className='mx-auto max-w-7xl flex justify-items-center flex-col py-16'>
+        <main className='mx-auto max-w-7xl flex justify-items-center flex-col py-16 px-6 md:px-0'>
             {/* heading */}
             <div className='w-full py-16 flex flex-col justify-center items-center'>
               {/* child-empty */}
@@ -20,7 +20,7 @@ const Design = () => {
             <div className='w-full md:w-1/2 flex flex-col gap-8'>
 
              {/* card-one */}
-             <div className='w-full flex bg-black p-10 gap-6'>
+             <div className='w-full flex justify-center md:justify-start rounded-lg bg-black hover:bg-[#3f3f3f] p-10 gap-6'>
                 {/* child-one */}
                 <div className=''>
                     <img src="./images/design/d-1.png" alt="log-1" />
@@ -33,7 +33,7 @@ const Design = () => {
              </div>
 
               {/* card-two*/}
-              <div className='w-full flex bg-black p-10 gap-6'>
+              <div className='w-full flex justify-center md:justify-start rounded-lg bg-black hover:bg-[#3f3f3f] p-10 gap-6'>
                 {/* child-one */}
                 <div className=''>
                     <img src="./images/design/d-2.png" alt="log-1" />
@@ -46,7 +46,7 @@ const Design = () => {
              </div>
 
               {/* card-three */}
-              <div className='w-full flex bg-black p-10 gap-6'>
+              <div className='w-full flex justify-center md:justify-start rounded-lg bg-black hover:bg-[#3f3f3f] p-10 gap-6'>
                 {/* child-one */}
                 <div className=''>
                     <img src="./images/design/d-3.png" alt="log-1" />
@@ -64,7 +64,7 @@ const Design = () => {
             <div className='w-full md:w-1/2 flex flex-col gap-8'>
 
              {/* card-1 */}
-            <div className='w-full flex bg-black p-10 gap-6'>
+            <div className='w-full flex justify-center md:justify-start rounded-lg bg-black hover:bg-[#3f3f3f] p-10 gap-6'>
 
                 {/* child-one */}
                 <div className=''>
@@ -78,7 +78,7 @@ const Design = () => {
              </div>
 
                {/* card-2 */}
-             <div className='w-full flex bg-black p-10 gap-6'>
+             <div className='w-full flex justify-center md:justify-start rounded-lg bg-black hover:bg-[#3f3f3f] p-10 gap-6'>
                 {/* child-one */}
                 <div className=''>
                     <img src="./images/design/d-5.png" alt="log-1" />
@@ -91,7 +91,7 @@ const Design = () => {
              </div>
 
                 {/* card-3 */}
-             <div className='w-full flex bg-black p-10 gap-6'>
+             <div className='w-full flex justify-center md:justify-start rounded-lg bg-black hover:bg-[#3f3f3f] p-10 gap-6'>
                 {/* child-one */}
                 <div className=''>
                     <img src="./images/design/d-6.png" alt="log-1" />
